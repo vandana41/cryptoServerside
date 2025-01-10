@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const app = express();
 const statsRoutes = require("./routes/statsRoutes");
 const PORT = process.env.PORT || 3000;
-const DB_URI = process.env.DATABASEB_URI ;
+const DB_URI = process.env.DB_URI ;
 // src/app.js
 const deviationRoutes = require("./routes/deviationRoutes");
 app.use("/api", deviationRoutes);
