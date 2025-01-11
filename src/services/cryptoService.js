@@ -15,6 +15,8 @@ const fetchCryptoPrices = async () => {
         include_24hr_change: "true"
       }
     });
+    console.log('Fetched data from CoinGecko:', JSON.stringify(data, null, 2));
+
 
     for (const coin of COINS) {
       const cryptoData = {
