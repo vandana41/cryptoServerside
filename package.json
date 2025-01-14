@@ -2,7 +2,6 @@
   "name": "serverside",
   "version": "1.0.0",
   "description": "It is a server side application.",
-  
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -24,6 +23,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.9.4",
-    "node-cron": "^3.0.3"
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1"
   }
 }
